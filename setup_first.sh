@@ -11,3 +11,6 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 apt install nvidia-cuda-toolkit
 pip3 install kaggle
 vim ~/.kaggle/kaggle.json
+...
+
+ps ax | grep test.py
