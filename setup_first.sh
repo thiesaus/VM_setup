@@ -1,7 +1,8 @@
-pip3 install -r requirements.txt
 sudo apt-get update
-sudo apt install python3.10-venv -Y
+sudo apt install python3.10-venv -y
 sudo python3 -m venv Testing python3.10
+
+pip3 install -r requirements.txt
 source Testing/bin/activate
 pip3 install wandb -qU
 apt install zip
